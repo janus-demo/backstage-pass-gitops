@@ -1,0 +1,16 @@
+app:
+  name: backstage-pass
+  namespace: backstage-pass-dev
+  cluster: .apps.cluster-x7g75.x7g75.sandbox243.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-demo/backstage-pass
+  org: janus-demo
+  name: backstage-pass
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: janus-demo
+  name: backstage-pass
